@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        driverClassName: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/basicBoot
+        username: root
+        password: center135
+    application:
+      name: basic-boot
+server:
+  port: 8080
+logging:
+  path: /var/spring-boot-log/info.${spring.application.name}.out
+
+#mybatis.mapper-locations=classpath:edu/hznu/cliven/mybatisboot/mapper/*.xml
